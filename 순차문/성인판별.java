@@ -1,25 +1,25 @@
-package ¼øÂ÷¹®;
+package ìˆœì°¨ë¬¸;
 
 import java.util.Date;
 import java.util.Scanner;
 
-public class ¼ºÀÎÆÇº° {
+public class ì„±ì¸íŒë³„ {
 
 	public static void main(String[] args) {
-		System.out.print("ÅÂ¾î³­ ÇØ ÀÔ·Â >> ");
+		System.out.print("íƒœì–´ë‚œ í•´ ì…ë ¥ >> ");
 		Scanner sc = new Scanner(System.in);
 		int year = sc.nextInt();
 		
 		Date date = new Date();
-		int thisYear = date.getYear()+1990;
+		int thisYear = date.getYear()+1900;
 		
-		int age = thisYear - year +1; //¿ì¸®³ª¶ó °è»ê³ªÀÌ +1
-		System.out.println("´ç½ÅÀÇ ³ªÀÌ´Â:" + age+ "»ì");
+		int age = thisYear - year +1; //ìš°ë¦¬ë‚˜ë¼ ê³„ì‚°ë‚˜ì´ +1
+		System.out.println("ë‹¹ì‹ ì˜ ë‚˜ì´ëŠ”:" + age+ "ì‚´");
 		
 		if (age >= 18) {
-			System.out.println("¼ºÀÎ");
+			System.out.println("ì„±ì¸");
 		} else {
-			System.out.println("¹Ì¼ºÀÎ");
+			System.out.println("ë¯¸ì„±ì¸");
 
 		}
 	}
