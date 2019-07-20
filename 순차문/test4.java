@@ -1,4 +1,4 @@
-package ¼øÂ÷¹®;
+package ìˆœì°¨ë¬¸;
 
 import java.util.Scanner;
 
@@ -8,22 +8,24 @@ public class test4 {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("--------------------");
-		System.out.println("Å°º¸µå °¡°İ: ");
+		System.out.println("í‚¤ë³´ë“œ ê°€ê²©: ");
 		int KeyBoardPrice = sc.nextInt();
-		System.out.println("Å°º¸µå °¹¼ö: ");
+		System.out.println("í‚¤ë³´ë“œ ê°¯ìˆ˜: ");
 		int KeyBoardNumber = sc.nextInt();
 		
-		System.out.println("¸¶¿ì½º °¡°İ: ");
+		System.out.println("ë§ˆìš°ìŠ¤ ê°€ê²©: ");
 		int MousePrice = sc.nextInt();
-		System.out.println("¸¶¿ì½º °¹¼ö: ");
+		System.out.println("ë§ˆìš°ìŠ¤ ê°¯ìˆ˜: ");
 		int MouseNumb = sc.nextInt();
 				
 				
+		int KeyBoardTotPrice = KeyBoardNumber * KeyBoardPrice;
+		int MouseTotPrice = MouseNumb * MousePrice;
 				
 		
-		System.out.println("Å°º¸µå ÃÑ °¡°İ: " + KeyBoardNumber * KeyBoardPrice);
-		System.out.println("¸¶¿ì½º ÃÑ °¡°İ: " + MouseNumb * MousePrice);
-		System.out.println("Á¦Ç° ÃÑ °¡°İ: " );
+		System.out.println("í‚¤ë³´ë“œ ì´ ê°€ê²©: " + KeyBoardTotPrice);
+		System.out.println("ë§ˆìš°ìŠ¤ ì´ ê°€ê²©: " + MouseTotPrice);
+		System.out.println("ì œí’ˆ ì´ ê°€ê²©: " + KeyBoardTotPrice + MouseTotPrice);
 	}
 
 }
