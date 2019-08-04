@@ -8,19 +8,15 @@ import java.util.LinkedList;
 public class 컬렉션테스트6 {
 
 	public static void main(String[] args) {
-		ArrayList list = new ArrayList();
+//		ArrayList list = new ArrayList();
 		//MAP 이 정답임
-//		HashMap map = new HashMap();
-//		map.put("apple", "사과");
-//		map.put("melon", "메론");
-//		map.put("book", "책");
-		list.add("");
-		list.add("엄마");
-		list.add("아빠");
-		list.add("친구");
-		list.add("동생");
+		HashMap map = new HashMap();
+		map.put("1", "엄마");
+		map.put("2","아빠");
+		map.put("3","친구");
+		map.put("4","동생");
 		
-		System.out.println(list.get(2));
+		System.out.println(map.get("1"));
 		
 		
 		ArrayList list2 = new ArrayList();
